@@ -1,0 +1,21 @@
+{
+  "name": "webhook-server",
+  "version": "1.0.0",
+  "description": "webhookk server execute shell script file",
+  "scripts": {
+    "start": "node ./server/server.js",
+    "watch": "nodemon server.js --watch server --delay 500ms",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Benjamin Chen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
